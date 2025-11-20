@@ -15,7 +15,7 @@ const rzp = new Razorpay({
 app.post("/create-order", async (req, res) => {
   try {
     const options = {
-      amount: 2000, // 2000 paise = ₹20 INR
+      amount: 6000, // 2000 paise = ₹20 INR
       currency: "INR",
       receipt: "receipt_" + Date.now(),
     };
